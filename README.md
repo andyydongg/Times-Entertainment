@@ -3,7 +3,7 @@
 
 Forms/Feedback: https://forms.office.com/r/GwGVCejpTt
 
-Patreon: [link](https://www.patreon.com/TimesEntertainment?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)
+Patreon: [Link](https://www.patreon.com/TimesEntertainment?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)
 
 • Designed and created a website that offers users different things to do in their spare time
 
