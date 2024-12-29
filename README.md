@@ -1,7 +1,7 @@
 # Times Entertainment
 *Drexel University: INFO-151-001 Course Project*
 
-https://andyydongg.github.io/Times-Entertainment/
+Link: https://andyydongg.github.io/Times-Entertainment/
 
 Forms/Feedback: https://forms.office.com/r/GwGVCejpTt
 
