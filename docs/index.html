@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <title>Times Entertainment</title>
+</head>
+<body>
+    <header>
+        <nav style="padding: 1%;">
+            <ul>
+                <li style="list-style-type: none;"><a href="index.html" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 2; color: white; text-decoration:none; text-align: left; justify-content: flex-end; font-size: 180%;" onmouseover="this.style.color='grey';" onmouseout="this.style.color='white';">TIMES</a></li>
+            </ul>
+        </nav>
+        <div id="calendar" class="calendar" style="text-align: right; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"></div>
+    <div id="clock" class="clock" style="text-align: right; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"></div>
+    </header>
+    <main>
+    <!-- Top page content-->
+    <h1 class="title_msg" id="bigHeader">Ways To Kill Time</h1>
+    <h1 class="title_msg">What would you like to do?</h1>
+    <table style="text-align: center; justify-content: space-evenly; width: 100%;">
+    <tr>
+        <td>
+    <a href="watch.html">
+        <img src="play_button_white.png" alt="play button" style="width: 150px; height: 150px;">
+    </a>
+    <p><a href="watch.html" style="text-decoration:none; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">Watch</a></p>
+    <!-- https://placeuk.com/wp-content/uploads/index-media-cover-art-play-button-overlay-5.png -->
+    </td>
+    <td>
+    <a href="read.html">
+        <img src="eyeglasses.png" alt="reading glasses" style="width: 150px; height: 150px;">
+    </a>
+    <p><a href="read.html" style="text-decoration:none; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">Read</a></p>
+    <!-- https://www.flaticon.com/free-icon/eyeglasses_149456?term=glasses&page=1&position=1&origin=tag&related_id=149456 -->
+    </td>
+    <td>
+    <a href="play.html">
+        <img src="game-console.png" style="width: 150px; height: 150px;" alt="game-console">
+    </a>
+    <p><a href="play.html" style="text-decoration:none; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">Play</a></p>
+    <!-- https://www.flaticon.com/free-icon/game-control_4315528?term=game+controller&page=1&position=46&origin=search&related_id=4315528 -->
+    </td>
+</tr>    
+</table>
+
+<br>
+<br>
+<br>
+
+    <!-- Second half of homepage starts here -->
+
+    <!-- Table Starts Here-->
+    <table style="text-align: center; width: 100%; justify-content: space-evenly;">
+    <!-- Row 1-->
+    <tr>
+    <td>
+    <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Quote of the Day</h2>
+    <p id="quoteDisplay" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    <textarea rows="2" cols="20" wrap="hard" readonly>
+    Random quote will appear here
+</textarea>
+</p>
+</td>
+<td>
+    <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Have a minute?</h2>
+    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Take a short survey and provide some feedback below</p>
+    <!-- Microsoft Forms -->
+    <a id="microsoftForms" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-decoration: none;" href="https://forms.office.com/r/GwGVCejpTt" target="_blank" onmouseover="this.style.color='grey';" onmouseout="this.style.color='white';">Click here for feedback survey
+</a>
+</td>   
+</tr>
+
+    <!-- Row 2 -->
+    <tr>
+    <td>
+    <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Let's Connect</h4>
+    <a id="linkden_profile" href="https://www.linkedin.com/in/andy-dong-628279242/" target="_blank">
+    <img src="linkdenLogo.png" alt="linkedin logo" style="width: 100px; height: 100px; width: auto; margin: 10px; border-radius: 50%; overflow: hidden; display: inline-block;">
+    </a>
+    <a id="github_profile" href="https://github.com/andyydongg" target="_blank">
+    <img src="github.png" alt="github logo" style="width: 100px; height: 100px; margin: 10px; border-radius: 50%; overflow: hidden; display: inline-block;">
+    <!-- https://www.flaticon.com/free-icon/github_2111432?term=github&page=1&position=4&origin=search&related_id=2111432 -->
+    </a>
+    <p id="drexelEmail" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">For more information, please contact ad4245@drexel.edu</p>
+    </td>
+    <td>
+    <h5 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">New Releases</h5>
+    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sign up to get notified for new releases</p>
+    <form id="emailForm">
+        <input type="email" name="email" placeholder="Email" required>
+        <button type="submit" id="signup-arrow" class="arrow" onmouseover="this.style.cursor='pointer';">&#8592;</button>
+    </form>
+    </td>
+    </tr>
+    </table>
+</main>
+<footer class="footer">
+    <p><a href="about.html">About</a></p>
+    <p><a href="terms.html">Terms of Use</a></p>
+    <p><a href="policy.html">Privacy Policy</a></p>
+    <p><a href="workscited.html">Works Cited</a></p>
+</footer>
+<script>
+     function updateClock() {
+      const now = new Date();
+      const estTime = new Date(now.toLocaleString("en-US", { timeZone: "America/New_York" }));
+      let hours = estTime.getHours();
+      const amPm = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12 || 12;
+      const minutes = estTime.getMinutes().toString().padStart(2, '0');
+      const seconds = estTime.getSeconds().toString().padStart(2, '0');
+      const timeString = `${hours}:${minutes}:${seconds} ${amPm}`;
+      document.getElementById('clock').textContent = timeString;
+
+      // Display date in mm/dd/yyyy format
+      const month = (estTime.getMonth() + 1).toString().padStart(2, '0');
+      const day = estTime.getDate().toString().padStart(2, '0');
+      const year = estTime.getFullYear();
+      const dateString = `${month}/${day}/${year}`;
+      document.getElementById('calendar').textContent = dateString;
+    }
+    // Family Safe - Need to update once page content for watch, read and play is finished
+    setInterval(updateClock, 1000);
+
+    // Random Quotes
+    const quotes = [
+    "“One day you'll leave this world behind, so live a life you will remember.” - Avicii (Tim Bergling)", // https://addicted2success.com/quotes/37-inspirational-avicii-quotes-on-success/
+    "“If you love life, don't waste time, for time is what life is made up of.” - Bruce Lee", // https://www.brainyquote.com/authors/bruce-lee-quotes
+    "“Happiness is when what you think, what you say, and what you do are in harmony.” - Mahatma Gandi", // https://timesofindia.indiatimes.com/blogs/the-photo-blog/remembering-gandhi-top-10-quotes-by-the-mahatma/
+    "“A winner is a dreamer who never gives up.” - Nelson Mandela", // https://worldbicyclerelief.org/5-of-the-most-inspirational-nelson-mandela-quotes/
+    "“Because that's the way it was meant to be.” - Bobby Pendragon", // https://www.goodreads.com/author/quotes/6445857.Bobby_Pendragon
+    "“Do not let circumstances control you. You change your circumstances.” - Jackie Chan", // https://www.brainyquote.com/quotes/jackie_chan_182016
+    // Random quotes add here
+   ];
+
+   function displayRandomQuote() {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    const randomQuote = quotes[randomIndex];
+    document.getElementById('quoteDisplay').textContent = randomQuote;
+}
+
+// Display random quote when the page loads
+displayRandomQuote();
+
+// Refresh the quote every 24 hours (24 * 60 * 60 * 1000 milliseconds)
+setInterval(displayRandomQuote, 24 * 60 * 60 * 1000);
+
+// Link for email form
+document.getElementById("emailForm").addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent the form from submitting
+        window.open("https://www.youtube.com/watch?v=GtL1huin9EE", "_blank");
+    });
+</script>
+</body>
+</html>
