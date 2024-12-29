@@ -3,9 +3,7 @@
 
 Forms/Feedback: https://forms.office.com/r/GwGVCejpTt
 
-Patreon page [here](https://www.patreon.com/TimesEntertainment?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)
-
-Contact: ad4245@drexel.edu
+[Patreon](https://www.patreon.com/TimesEntertainment?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)
 
 • Designed and created a website that offers users different things to do in their spare time
 
