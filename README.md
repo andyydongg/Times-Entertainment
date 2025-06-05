@@ -1,5 +1,10 @@
 # Times Entertainment
-*Drexel University: INFO-151-001 Course Project*
+*Drexel University: INFO-151-001 | Web Systems and Services I Course Project*
+
+A small collection of things to do in one's spare time.
+- Currently offers things to watch, read, and play
+- Offers free options and paid content linked to various sources across the internet
+- For all pages with consumable content, there is a Family Safe filter function that can be toggled on and off
 
 Link: https://andyydongg.github.io/Times-Entertainment/
 
