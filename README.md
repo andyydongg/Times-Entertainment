@@ -1,5 +1,5 @@
 # Times Entertainment
-*Drexel University: INFO-151-001 | Web Systems and Services I Course Project*
+*Drexel University: INFO-151 | Web Systems and Services I Course Project*
 
 A small collection of things to do in one's spare time.
 - Currently offers things to watch, read, and play
